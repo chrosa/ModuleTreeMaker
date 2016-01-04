@@ -1,0 +1,5 @@
+xmllint --format 'http://coolcherrypy.cern.ch:8080/cooldb/ATLAS_COOLPROD/ATLAS_COOLOFL_SCT/CONDBR2/SCT/Derived/Monitoring/timespan/1000000000000000-2000000000000000/tag/SctDerivedMonitoring-RUN2-UPD4-004/channels/*'
+
+xmllint --format 'http://coolcherrypy.cern.ch:8080/cooldb/ATLAS_COOLPROD/ATLAS_COOLONL_SCT/CONDBR2/SCT/DAQ/Calibration/NoiseOccupancyDefects/timespan/0-1449825299000000000/channels/*' > COOL_NoiseOccupancyDefects.out
+
+xmllint --format 'http://coolcherrypy.cern.ch:8080/cooldb/ATLAS_COOLPROD/ATLAS_COOLONL_SCT/CONDBR2/SCT/DAQ/Calibration/NPtGainDefects/timespan/0-1449825299000000000/channels/*' > COOL_NPtGainDefects.out
